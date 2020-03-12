@@ -1,0 +1,8 @@
+version: '3'
+services:
+  datalab:
+    image: gcr.io/cloud-datalab/datalab:latest
+    ports:
+      - "8081:8080"
+    volumes:
+      - .:/content
