@@ -7,3 +7,5 @@ services:
       - "8081:8080"
     volumes:
       - .:/content
+    environment:
+      - DATALAB_DEBUG=true
